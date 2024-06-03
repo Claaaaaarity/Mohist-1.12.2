@@ -1,0 +1,160 @@
+8.1.2 02-06-2024 15:21:13 Starting new session. Mods: examplemod 
+8.1.2 02-06-2024 15:21:51 MAJOR: null: Loading language: ru_ru
+8.1.2 02-06-2024 15:21:52 MAJOR: null: LanguageData loaded: ru_ru. Wand invitem name: Жезл Создания
+8.1.2 02-06-2024 15:27:43 Error when checking version:
+8.1.2 02-06-2024 15:27:43 java.net.ConnectException: Connection refused: connect
+	at java.net.TwoStacksPlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1168)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1104)
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:988)
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:986)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessController.doPrivileged(AccessController.java:713)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:985)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:932)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1512)
+	at sun.net.www.protocol.http.HttpURLConnection.access$200(HttpURLConnection.java:90)
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1432)
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1430)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessController.doPrivileged(AccessController.java:713)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1429)
+	at java.net.URL.openStream(URL.java:1038)
+	at org.millenaire.common.utilities.MillCommonUtilities$VersionCheckThread.run(MillCommonUtilities.java:206)
+
+8.1.2 02-06-2024 15:40:11 Starting new session. Mods: examplemod 
+8.1.2 02-06-2024 15:40:53 MAJOR: null: Loading language: ru_ru
+8.1.2 02-06-2024 15:40:54 MAJOR: null: LanguageData loaded: ru_ru. Wand invitem name: Жезл Создания
+8.1.2 02-06-2024 15:42:45 Error when checking version:
+8.1.2 02-06-2024 15:42:45 java.net.ConnectException: Connection refused: connect
+	at java.net.TwoStacksPlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1168)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1104)
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:988)
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:986)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessController.doPrivileged(AccessController.java:713)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:985)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:932)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1512)
+	at sun.net.www.protocol.http.HttpURLConnection.access$200(HttpURLConnection.java:90)
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1432)
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1430)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessController.doPrivileged(AccessController.java:713)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1429)
+	at java.net.URL.openStream(URL.java:1038)
+	at org.millenaire.common.utilities.MillCommonUtilities$VersionCheckThread.run(MillCommonUtilities.java:206)
+
+8.1.2 02-06-2024 15:46:07 Error when checking version:
+8.1.2 02-06-2024 15:46:07 java.net.ConnectException: Connection refused: connect
+	at java.net.TwoStacksPlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1168)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1104)
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:988)
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:986)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessController.doPrivileged(AccessController.java:713)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:985)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:932)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1512)
+	at sun.net.www.protocol.http.HttpURLConnection.access$200(HttpURLConnection.java:90)
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1432)
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1430)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessController.doPrivileged(AccessController.java:713)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1429)
+	at java.net.URL.openStream(URL.java:1038)
+	at org.millenaire.common.utilities.MillCommonUtilities$VersionCheckThread.run(MillCommonUtilities.java:206)
+
+8.1.2 02-06-2024 15:51:31 Starting new session. Mods: examplemod 
+8.1.2 02-06-2024 15:52:08 MAJOR: null: Loading language: ru_ru
+8.1.2 02-06-2024 15:52:09 MAJOR: null: LanguageData loaded: ru_ru. Wand invitem name: Жезл Создания
+8.1.2 02-06-2024 15:54:25 Error when checking version:
+8.1.2 02-06-2024 15:54:25 java.net.ConnectException: Connection refused: connect
+	at java.net.TwoStacksPlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1168)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1104)
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:988)
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:986)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessController.doPrivileged(AccessController.java:713)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:985)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:932)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1512)
+	at sun.net.www.protocol.http.HttpURLConnection.access$200(HttpURLConnection.java:90)
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1432)
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1430)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessController.doPrivileged(AccessController.java:713)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1429)
+	at java.net.URL.openStream(URL.java:1038)
+	at org.millenaire.common.utilities.MillCommonUtilities$VersionCheckThread.run(MillCommonUtilities.java:206)
+
+8.1.2 02-06-2024 16:03:15 Starting new session. Mods: examplemod 
+8.1.2 02-06-2024 16:03:57 MAJOR: null: Loading language: ru_ru
+8.1.2 02-06-2024 16:03:57 MAJOR: null: LanguageData loaded: ru_ru. Wand invitem name: Жезл Создания
+8.1.2 02-06-2024 16:21:47 Starting new session. Mods: examplemod 
+8.1.2 02-06-2024 16:22:29 MAJOR: null: Loading language: ru_ru
+8.1.2 02-06-2024 16:22:29 MAJOR: null: LanguageData loaded: ru_ru. Wand invitem name: Жезл Создания
+8.1.2 02-06-2024 16:51:39 Starting new session. Mods: examplemod 
+8.1.2 02-06-2024 16:52:19 MAJOR: null: Loading language: ru_ru
+8.1.2 02-06-2024 16:52:19 MAJOR: null: LanguageData loaded: ru_ru. Wand invitem name: Жезл Создания
+8.1.2 02-06-2024 20:59:34 Starting new session. Mods: examplemod 
+8.1.2 02-06-2024 21:00:19 MAJOR: null: Loading language: ru_ru
+8.1.2 02-06-2024 21:00:20 MAJOR: null: LanguageData loaded: ru_ru. Wand invitem name: Жезл Создания
+8.1.2 02-06-2024 21:05:07 Starting new session. Mods: examplemod 
+8.1.2 02-06-2024 21:05:48 MAJOR: null: Loading language: ru_ru
+8.1.2 02-06-2024 21:05:49 MAJOR: null: LanguageData loaded: ru_ru. Wand invitem name: Жезл Создания
