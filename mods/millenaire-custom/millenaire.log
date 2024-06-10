@@ -263,3 +263,117 @@
 8.1.2 09-06-2024 22:58:55 Starting new session. Mods: examplemod 
 8.1.2 09-06-2024 22:59:41 MAJOR: null: Loading language: ru_ru
 8.1.2 09-06-2024 22:59:41 MAJOR: null: LanguageData loaded: ru_ru. Wand invitem name: Жезл Создания
+8.1.2 09-06-2024 23:11:48 Error when checking version:
+8.1.2 09-06-2024 23:11:48 java.net.ConnectException: Connection refused: connect
+	at java.net.TwoStacksPlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1168)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1104)
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:988)
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:986)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessController.doPrivileged(AccessController.java:713)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:985)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:932)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1512)
+	at sun.net.www.protocol.http.HttpURLConnection.access$200(HttpURLConnection.java:90)
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1432)
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1430)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessController.doPrivileged(AccessController.java:713)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1429)
+	at java.net.URL.openStream(URL.java:1038)
+	at org.millenaire.common.utilities.MillCommonUtilities$VersionCheckThread.run(MillCommonUtilities.java:206)
+
+8.1.2 09-06-2024 23:28:49 Starting new session. Mods: examplemod 
+8.1.2 09-06-2024 23:29:42 MAJOR: null: Loading language: ru_ru
+8.1.2 09-06-2024 23:29:43 MAJOR: null: LanguageData loaded: ru_ru. Wand invitem name: Жезл Создания
+8.1.2 09-06-2024 23:33:02 Starting new session. Mods: examplemod 
+8.1.2 09-06-2024 23:33:58 MAJOR: null: Loading language: ru_ru
+8.1.2 09-06-2024 23:33:58 MAJOR: null: LanguageData loaded: ru_ru. Wand invitem name: Жезл Создания
+8.1.2 09-06-2024 23:36:35 Exception, printing stack:
+8.1.2 09-06-2024 23:36:35 java.nio.file.AccessDeniedException: C:\Users\Claaaaaarity\AppData\Roaming\.minecraft\saves\Новый мир\millenaire\villagerRecords.gz
+	at sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:83)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:97)
+	at sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:102)
+	at sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:376)
+	at sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:287)
+	at java.nio.file.Files.move(Files.java:1395)
+	at org.millenaire.common.world.MillWorldData.saveVillagerRecords(MillWorldData.java:1401)
+	at org.millenaire.common.world.MillWorldData.saveEverything(MillWorldData.java:1246)
+	at org.millenaire.common.forge.MillEventController.worldSaved(MillEventController.java:303)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_1600_MillEventController_worldSaved_Save.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
+	at net.minecraft.world.WorldServer.func_73044_a(WorldServer.java:1008)
+	at net.minecraft.server.MinecraftServer.func_71267_a(MinecraftServer.java:408)
+	at net.minecraft.server.integrated.IntegratedServer.func_71267_a(IntegratedServer.java:376)
+	at net.minecraft.server.MinecraftServer.func_71260_j(MinecraftServer.java:446)
+	at net.minecraft.server.integrated.IntegratedServer.func_71260_j(IntegratedServer.java:515)
+	at net.minecraft.client.Minecraft.func_71363_D(Minecraft.java:2972)
+	at net.minecraft.client.main.Main$2.run(SourceFile:116)
+
+8.1.2 09-06-2024 23:37:35 Starting new session. Mods: examplemod 
+8.1.2 09-06-2024 23:38:30 MAJOR: null: Loading language: ru_ru
+8.1.2 09-06-2024 23:38:31 MAJOR: null: LanguageData loaded: ru_ru. Wand invitem name: Жезл Создания
+8.1.2 09-06-2024 23:40:39 Error when checking version:
+8.1.2 09-06-2024 23:40:39 java.net.ConnectException: Connection refused: connect
+	at java.net.TwoStacksPlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:180)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.http.HttpClient.<init>(HttpClient.java:211)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:308)
+	at sun.net.www.http.HttpClient.New(HttpClient.java:326)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1168)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1104)
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:988)
+	at sun.net.www.protocol.http.HttpURLConnection$6.run(HttpURLConnection.java:986)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessController.doPrivileged(AccessController.java:713)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:985)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:932)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1512)
+	at sun.net.www.protocol.http.HttpURLConnection.access$200(HttpURLConnection.java:90)
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1432)
+	at sun.net.www.protocol.http.HttpURLConnection$9.run(HttpURLConnection.java:1430)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.AccessController.doPrivileged(AccessController.java:713)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1429)
+	at java.net.URL.openStream(URL.java:1038)
+	at org.millenaire.common.utilities.MillCommonUtilities$VersionCheckThread.run(MillCommonUtilities.java:206)
+
+8.1.2 10-06-2024 00:01:21 Starting new session. Mods: examplemod 
+8.1.2 10-06-2024 00:02:12 MAJOR: null: Loading language: ru_ru
+8.1.2 10-06-2024 00:02:13 MAJOR: null: LanguageData loaded: ru_ru. Wand invitem name: Жезл Создания
+8.1.2 10-06-2024 00:19:21 Starting new session. Mods: examplemod 
+8.1.2 10-06-2024 00:20:11 MAJOR: null: Loading language: ru_ru
+8.1.2 10-06-2024 00:20:12 MAJOR: null: LanguageData loaded: ru_ru. Wand invitem name: Жезл Создания
+8.1.2 10-06-2024 00:22:33 Starting new session. Mods: examplemod 
+8.1.2 10-06-2024 00:23:25 MAJOR: null: Loading language: ru_ru
+8.1.2 10-06-2024 00:23:25 MAJOR: null: LanguageData loaded: ru_ru. Wand invitem name: Жезл Создания
+8.1.2 10-06-2024 00:28:43 Starting new session. Mods: examplemod 
+8.1.2 10-06-2024 00:29:30 MAJOR: null: Loading language: ru_ru
+8.1.2 10-06-2024 00:29:31 MAJOR: null: LanguageData loaded: ru_ru. Wand invitem name: Жезл Создания
+8.1.2 10-06-2024 00:32:00 Starting new session. Mods: examplemod 
+8.1.2 10-06-2024 00:32:52 MAJOR: null: Loading language: ru_ru
+8.1.2 10-06-2024 00:32:52 MAJOR: null: LanguageData loaded: ru_ru. Wand invitem name: Жезл Создания
